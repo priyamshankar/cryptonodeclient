@@ -1,0 +1,51 @@
+.chartcontainer .alertdialog {
+  position: absolute;
+}
+.chartcontainer .headerCharpage {
+  display: flex;
+}
+.chartcontainer .headerCharpage p {
+  font-size: 34px;
+  font-weight: 700;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+.chartcontainer .graphContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+.chartcontainer .button-graph {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  float: right;
+  right: 20rem;
+}
+.chartcontainer .button-graph button {
+  all: unset;
+  background-color: #911738;
+  color: white;
+  height: 2rem;
+  width: 4.8rem;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.chartcontainer .button-graph button:hover {
+  background-color: #fae0e0;
+  color: #911738;
+}
+.chartcontainer button {
+  all: unset;
+  height: 10rem;
+  width: 7rem;
+  background-color: #911738;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}/*# sourceMappingURL=chart.css.map */

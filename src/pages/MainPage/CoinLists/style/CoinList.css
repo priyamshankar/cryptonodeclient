@@ -1,0 +1,31 @@
+.coinList-container {
+  display: flex;
+  justify-content: center;
+}
+.coinList-container table {
+  border-collapse: collapse; /* Remove spacing between table cells */
+  border: none;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+}
+.coinList-container table .heading-table {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #BE1E2E;
+  height: 4rem;
+  color: white;
+}
+.coinList-container table .col-tab {
+  cursor: pointer;
+  height: 4rem;
+}
+.coinList-container table .col-tab img {
+  width: 35px;
+}
+.coinList-container table .col-tab:hover {
+  background-color: #FAE0E0;
+}
+.coinList-container table th, .coinList-container table td {
+  border: none;
+}/*# sourceMappingURL=CoinList.css.map */

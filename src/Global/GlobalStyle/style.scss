@@ -1,0 +1,9 @@
+body{
+    font-family: 'Inter', sans-serif;
+    .appcontainer{
+        display: grid;
+        grid-template-rows: 1fr 9fr;
+        height: 98vh;
+    }
+    // color: $global-text;
+}

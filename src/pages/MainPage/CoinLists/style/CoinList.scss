@@ -1,0 +1,34 @@
+$primary-color: #BE1E2E;
+    $fill-color:#FAE0E0;
+    $secondary-color:#911738;
+.coinList-container{
+    display: flex;
+    justify-content: center;
+    table{
+        border-collapse: collapse; /* Remove spacing between table cells */
+      border: none;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        .heading-table{
+            font-weight: 700;
+            font-size: 18px;
+            background-color: $primary-color;
+            height: 4rem;
+            color: white;
+        }
+        .col-tab{
+            img{
+                width: 35px;
+            }
+            cursor: pointer;
+            height: 4rem;
+        }
+        .col-tab:hover{
+            background-color: $fill-color;
+        }
+        th, td {
+            border: none; 
+        }
+    }
+}

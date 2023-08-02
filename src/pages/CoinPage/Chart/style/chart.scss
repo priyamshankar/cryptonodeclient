@@ -1,0 +1,60 @@
+$primary-color: #be1e2e;
+$fill-color: #fae0e0;
+$secondary-color: #911738;
+
+.chartcontainer {
+    .alertdialog {
+        position: absolute;
+    }
+    .headerCharpage{
+        display: flex;
+        p {
+            font-size: 34px;
+            font-weight: 700;
+            margin-left: 3rem;
+            margin-bottom: 2rem;
+        }
+    }
+  .graphContainer {
+      position: relative;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  .button-graph {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    float: right;
+    right: 20rem;
+    button {
+      all: unset;
+      background-color: $secondary-color;
+      color: white;
+      height: 2rem;
+      width: 4.8rem;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: $fill-color;
+      color: $secondary-color;
+    }
+  }
+
+  button {
+    all: unset;
+    height: 10rem;
+    width: 7rem;
+    background-color: $secondary-color;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+}

@@ -1,0 +1,87 @@
+
+.navbar-container{
+    $primary-color: #BE1E2E;
+    $fill-color:#FAE0E0;
+    $secondary-color:#911738;
+    a{
+        all: unset;
+    }
+    // width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+    margin-top: -1rem;
+    // background-color: blue;
+    button{
+        all: unset;
+        cursor: pointer;
+    }
+
+    .logopart{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0.3rem;
+        align-items: center;
+        img{
+            width: 3.9rem;
+        }
+        .cmpName{
+            font-size: 23px;
+            font-weight: 700;
+        }
+    }
+    .btnContents{
+        display: flex;
+        gap: 2rem;
+        margin-left: 1rem;
+        color: $secondary-color;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .lastEmb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        button{
+            background-color: $primary-color;
+            color: white;
+            height: 2.5rem;
+            width: 8rem;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .bell{
+            position: relative;
+            
+            img{
+                cursor: pointer;
+                width: 2rem;
+                height: 2rem;
+            }
+            p{
+                position: absolute;
+                top: 0rem;
+                margin-left: 1.3rem;
+                font-weight: 700;
+                color: $primary-color;
+            }
+        }
+        .closeban{
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            top: 0rem;
+            left: 0rem;
+            background: rgb(231, 221, 221);
+            z-index: 990;
+            opacity: 0.5;
+            
+          
+        }
+
+    }
+    
+}

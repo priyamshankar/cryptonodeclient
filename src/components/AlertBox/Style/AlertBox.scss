@@ -1,0 +1,72 @@
+$primary-color: #df989f;
+$fill-color:#FAE0E0;
+$secondary-color:#911738;
+
+
+.alertBoxContainer{
+    font-weight: 300;
+    background-color: $primary-color;
+    height: 20rem;
+    border-radius: 20px;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    .check{
+        // text-align: center;
+        margin-left: 2.5rem;
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    gap: 1rem;
+    h2{
+        text-align: center;
+
+    }
+    .inputBoxes{
+        display: flex;
+        flex-direction: row;
+        // flex-direction: column;
+        justify-content: space-evenly;
+        // gap: 2rem;
+        span{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+            label{
+                color: $secondary-color;
+                font-weight: 700;
+            }
+
+        }
+        input{
+            all: unset;
+            font-size: 16px;
+            width: 12rem;
+            // border-style: solid;
+            border-radius: 10px;
+            background-color: $fill-color;
+            height: 2rem;
+            text-align: center;
+        }
+    }
+
+    .alertButtons{
+        display: flex;
+        justify-content: space-evenly;
+        button{
+            all: unset;
+            width: 10rem;
+            height: 2rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            font-weight: 600;
+            background-color: $secondary-color;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+    }
+}

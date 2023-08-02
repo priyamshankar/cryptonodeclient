@@ -1,0 +1,75 @@
+.navbar-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: -1rem;
+}
+.navbar-container a {
+  all: unset;
+}
+.navbar-container button {
+  all: unset;
+  cursor: pointer;
+}
+.navbar-container .logopart {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.3rem;
+  align-items: center;
+}
+.navbar-container .logopart img {
+  width: 3.9rem;
+}
+.navbar-container .logopart .cmpName {
+  font-size: 23px;
+  font-weight: 700;
+}
+.navbar-container .btnContents {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1rem;
+  color: #911738;
+  font-size: 17px;
+  font-weight: 600;
+}
+.navbar-container .lastEmb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.navbar-container .lastEmb button {
+  background-color: #BE1E2E;
+  color: white;
+  height: 2.5rem;
+  width: 8rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.navbar-container .lastEmb .bell {
+  position: relative;
+}
+.navbar-container .lastEmb .bell img {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+.navbar-container .lastEmb .bell p {
+  position: absolute;
+  top: 0rem;
+  margin-left: 1.3rem;
+  font-weight: 700;
+  color: #BE1E2E;
+}
+.navbar-container .lastEmb .closeban {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0rem;
+  left: 0rem;
+  background: rgb(231, 221, 221);
+  z-index: 990;
+  opacity: 0.5;
+}/*# sourceMappingURL=Navbar.css.map */

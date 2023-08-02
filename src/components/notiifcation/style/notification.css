@@ -1,0 +1,31 @@
+.notifContainer {
+  border-radius: 10px;
+  position: absolute;
+  height: 50vh;
+  width: 20vw;
+  z-index: 999;
+  background-color: #FAE0E0;
+  top: 2.5rem;
+}
+.notifContainer .headNoti {
+  display: flex;
+  justify-content: space-evenly;
+}
+.notifContainer .headNoti button {
+  all: unset;
+  color: #911738;
+  cursor: pointer;
+}
+.notifContainer .notimapcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-items: center;
+  align-content: center;
+}
+.notifContainer .notimapcontainer hr {
+  color: #911738;
+}
+.notifContainer .notimapcontainer .notiContent {
+  text-align: center;
+}/*# sourceMappingURL=notification.css.map */
