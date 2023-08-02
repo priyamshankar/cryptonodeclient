@@ -30,7 +30,7 @@ const [notiToggle , setnotiToggle ] = useState(false);
   }, []);
 
   const fetchNotifications = async () =>{
-    await axios.post("http://localhost:5000/api/notification",{id:Cookies.get("id")}).then((res)=>{
+    await axios.post("https://cryptonodeserver.vercel.app/api/notification",{id:Cookies.get("id")}).then((res)=>{
       setNotification(res.data);
       // console.log(res.data);
     });

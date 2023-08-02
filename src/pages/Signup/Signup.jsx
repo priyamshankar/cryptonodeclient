@@ -49,7 +49,7 @@ const Signup = () => {
   }
 
   const handleSubmit = ()=>{
-    axios.post("http://localhost:5000/api/register",FormData)
+    axios.post("https://cryptonodeserver.vercel.app/api/register",FormData)
   .then((res)=>{
     console.log(res.data);
     setCookie(res.data);

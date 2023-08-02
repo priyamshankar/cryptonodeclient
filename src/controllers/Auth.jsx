@@ -6,7 +6,7 @@ import cookies from "js-cookie";
 export default async function Auth() {
   return axios({
     method: "post",
-    url: "http://localhost:5000/api/authcheck",
+    url: "https://cryptonodeserver.vercel.app/api/authcheck",
     data: {
       jwt: cookies.get("jwt"),
       id: cookies.get("id"),

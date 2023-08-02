@@ -18,7 +18,7 @@ const AlertBox = ({ setAlert, coinId, coinPrice }) => {
   }
 
   function handlesubmit() {
-    axios.post("http://localhost:5000/api/alert", limits).then((res) => {
+    axios.post("https://cryptonodeserver.vercel.app/api/alert", limits).then((res) => {
       // if(res.status===200){
       //     alert("alert added successfully");
       // }

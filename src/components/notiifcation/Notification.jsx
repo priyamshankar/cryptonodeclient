@@ -24,7 +24,7 @@ const Notification = ({ notificaiton, setNotification }) => {
   }, []);
   async function clearNotification() {
     setNotification([]);
-    await axios.post("http://localhost:5000/api/clearNotification", {
+    await axios.post("https://cryptonodeserver.vercel.app/api/clearNotification", {
       id: Cookies.get("id"),
     });
   }
